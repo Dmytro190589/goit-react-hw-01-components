@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 export default function Profile ({username,tag,location,avatar,stats}){
     return (
         <div className="profile">
@@ -28,4 +30,11 @@ export default function Profile ({username,tag,location,avatar,stats}){
   </ul>
 </div> 
     )
+}
+Profile.propTypes ={
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  stats: PropTypes.object,
 }
