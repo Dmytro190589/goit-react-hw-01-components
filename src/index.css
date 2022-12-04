@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
 
 body {
   margin: 0;
@@ -12,27 +12,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.profile{
-  display: block;
-  text-align: center;
-}
-.name{
-  font-weight: 700;
-}
-.stats{
-display: flex;
-flex-wrap: nowrap;
-gap: 30px;
-}
-.label,.tag,.location{
-  color:	#808080;
-}
-.stats__list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-}
-.quantity{
-  font-weight: 500;
 }

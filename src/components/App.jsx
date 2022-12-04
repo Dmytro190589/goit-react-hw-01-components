@@ -1,5 +1,8 @@
-import Profile from './Profile';
-import user from '../../src/user.json'
+import Profile from './Profile/Profile';
+// import Statistics from './Statistics';
+import user from '../../src/user.json';
+// import data from '../../src/data.json';
+
 export const App = () => {
   return (
     <div
