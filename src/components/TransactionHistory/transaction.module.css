@@ -1,0 +1,11 @@
+.transactioHistory {
+  text-align: center;
+  font-size: 0.5em;
+  min-width: 500px;
+}
+  
+  .transactioHistory thead tr {
+    background-color: #2e0098;
+    color: #ffffffc6;
+    text-align: center;
+  }
