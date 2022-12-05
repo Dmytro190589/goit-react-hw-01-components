@@ -1,0 +1,21 @@
+ul,li{
+    list-style-type: none;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+}
+.stat{
+    display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 18 px;
+  
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}

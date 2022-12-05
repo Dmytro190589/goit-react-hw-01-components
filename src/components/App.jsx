@@ -1,6 +1,6 @@
-import Profile from './Profile/Profile';
-// import Statistics from './Statistics';
-import user from '../../src/user.json';
+// import Profile from './Profile/Profile';
+// import user from '../../src/user.json';
+// import Statistics from './statistics/Statistics';
 // import data from '../../src/data.json';
 
 export const App = () => {
@@ -15,13 +15,14 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Profile
+      {/* <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-      />
+      /> */}
+      {/* <Statistics stats = {data} title = "Statistics"/> */}
     </div>
   );
 };
